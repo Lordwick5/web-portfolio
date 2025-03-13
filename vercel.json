@@ -1,0 +1,19 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+<<<<<<< HEAD
+}
+{
+  "version":2,
+  "builds": [
+    { "src": "*.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+  ]
+} 
+=======
+}
+>>>>>>> eabe886 (changed content inside vercel.json)
